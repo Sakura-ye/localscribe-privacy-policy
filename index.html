@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="referrer" content="no-referrer"><title>LocalScribe 隐私政策</title>
+<meta name="referrer" content="no-referrer"><title>Dolphin Scribe 隐私政策</title>
 <style>html{color-scheme:light dark}body{max-width:48rem;margin:0 auto;padding:2rem 1.2rem;font:17px/1.8 system-ui,sans-serif}h1{font-size:2rem}h2{font-size:1.2rem;margin-top:2rem}a{color:#378cc2}.draft{border:1px solid;padding:1rem;border-radius:.7rem}footer{margin-top:3rem;font-size:.9rem}</style>
-</head><body><h1>LocalScribe 隐私政策</h1><p>发布者：YUFAN ZHAO<br>更新日期：2026-11-05</p>
-<section><h2>适用范围</h2><p>本政策适用于 LocalScribe 的 iPhone、iPad 及配套 Apple Watch 应用。发布者为 YUFAN ZHAO。应用用于录音、转录、翻译、聊天和整理文档。识别或模型生成结果可能不准确，请结合原始录音核对。</p></section>
+</head><body><h1>Dolphin Scribe 隐私政策</h1><p>发布者：YUFAN ZHAO<br>更新日期：2026-11-05</p>
+<section><h2>适用范围</h2><p>本政策适用于 Dolphin Scribe（原名 LocalScribe）的 iPhone、iPad 及配套 Apple Watch 应用。发布者为 YUFAN ZHAO。应用用于录音、转录、翻译、聊天和整理文档。识别或模型生成结果可能不准确，请结合原始录音核对。</p></section>
 <section><h2>保存在设备上的信息</h2><p>录音、原文、译文、日期与时间、可编辑地点、聊天记录、录音引用和生成的文档保存在应用的设备存储中。本地模型在设备上处理内容。默认不会将这些内容发送到发布者的服务器。当前版本未集成广告或跨应用追踪 SDK，不使用这些内容进行广告画像。</p></section>
 <section><h2>麦克风、识别与手表</h2><p>开始录音或麦克风测试前请求麦克风权限；系统和应用显示录音状态。拒绝权限不影响查看已有记录。Apple 语音识别仅在系统支持本地识别时启用，不自动回退到服务器识别。Apple 翻译及语言包由系统管理。当前手表通过配对的 iPhone 发起或结束对话、接收字幕，使用的是 iPhone 麦克风；字幕在已配对设备之间通过 Apple WatchConnectivity 传输。</p></section>
 <section><h2>位置记录</h2><p>录音时可选择允许系统定位，以便记录地点；不进行持续后台定位。应用请求较低精度的位置，实际精度由系统和你的授权决定；Apple 的地理编码服务用于把坐标转换为地点名称，可能需要联网。保存的是可编辑地点文字，无法获得地名时可能保存经过舍入的坐标文本。你可拒绝定位、在系统设置撤回定位权限，或在历史记录修改地点，录音仍可使用。</p></section>
-<section><h2>可选的第三方 AI 与翻译 API</h2><p>只有你选择远程服务、配置所需凭据并明确允许发送文本后，应用才向该服务发送相应内容。翻译会发送原文；聊天会发送问题及最近的聊天上下文；主动开启录音检索会附上相关字幕；总结录音会分段发送所选录音的完整字幕。聊天上下文也可能包含此前的录音引用和搜索摘要。不向这些文本 API 发送原始音频。设置中显示服务和目标地址；自定义地址由你指定。服务商会接收到请求内容、网络地址及必要的认证信息，其保存期限、处理地点及是否用于训练由服务商政策和你的账号设置决定，LocalScribe 不保证服务商不会留存。请在使用前核对该服务条款。API Key 仅在本次应用进程内保留，不写入录音或聊天记录。</p></section>
+<section><h2>可选的第三方 AI 与翻译 API</h2><p>只有你选择远程服务、配置所需凭据并明确允许发送文本后，应用才向该服务发送相应内容。翻译会发送原文；聊天会发送问题及最近的聊天上下文；主动开启录音检索会附上相关字幕；总结录音会分段发送所选录音的完整字幕。聊天上下文也可能包含此前的录音引用和搜索摘要。不向这些文本 API 发送原始音频。设置中显示服务和目标地址；自定义地址由你指定。服务商会接收到请求内容、网络地址及必要的认证信息，其保存期限、处理地点及是否用于训练由服务商政策和你的账号设置决定，Dolphin Scribe 不保证服务商不会留存。请在使用前核对该服务条款。API Key 仅在本次应用进程内保留，不写入录音或聊天记录。</p></section>
 <section><h2>可选的联网检索</h2><p>联网检索默认关闭。开启后仍需为选定的搜索服务明确授权并配置凭据。搜索请求仅包含当前搜索问题及必要参数，不自动附带聊天历史或录音；你主动在问题中输入的个人信息也会随问题发送。搜索结果的摘要会交给所选聊天模型；选择远程聊天 API 时，摘要也会发往该 API。点击搜索结果会交由浏览器打开第三方网站，并适用该网站的政策。</p></section>
 <section><h2>模型下载与导入</h2><p>可选识别、翻译和聊天模型按需下载，下载站点会接收到网络请求和网络地址。下载模型不需要上传录音或字幕；完成后可离线运行。各模型及运行库适用各自的 License。文件导入通过系统文件选择器读取你选定的文件。首次下载可能较大，网络可用性取决于所在网络。 App 内置轻量的 Silero VAD 语音活动检测模型，只用于本地音频处理，附有 MIT License。</p></section>
 <section><h2>局域网、蓝牙与二维码</h2><p>扫描连接二维码时请求相机权限，扫描画面不保存或上传。附近设备发现可请求局域网与蓝牙权限。选择记录并确认目标 Mac 后，通过局域网加密传输录音、字幕及记录中的日期、地点等信息；这些内容会保存在接收端。不会仅因发现附近设备而发送记录。导出、分享或在其他编辑器中打开文档后，接收应用或设备会取得你选择的文件。</p></section>
